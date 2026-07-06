@@ -1,0 +1,22 @@
+name: My first Github action
+
+on:
+  push:
+
+jobs:
+  hello:
+    runs-on: windows-latest
+
+    steps:
+      -name: Checkout repository
+      uses: actions/checkout@v4
+
+      -name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+
+      -name: Run Python script
+      run: python hello.py
+
+
