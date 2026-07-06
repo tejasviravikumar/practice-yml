@@ -1,19 +1,19 @@
 class Calculator:
-    def __init__(self,a,b):
+    def __init__(self,a,c):
         self.a = a
-        self.b = b
+        self.c = c
 
     def add(self):
-        return self.a + self.b
+        return self.a + self.c
     
     def sub(self):
-        return self.a - self.b
+        return self.a - self.c
 
     def mul(self):
-        return self.a * self.b
+        return self.a * self.c
 
     def div(self):
-        return self.a / self.b
+        return self.a / self.c
 
 
 def main():
