@@ -17,6 +17,6 @@ jobs:
         python-version: "3.12"
 
       -name: Run Python script
-      run: python hello.py
+      run: python lol.py
 
 
